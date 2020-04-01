@@ -24,9 +24,9 @@
     <div id="app">
             <div class="wrapper">
         
-                    <div class="sidebar" data-image="assets/img/sidebar-5.jpg">
+                    <div class="sidebar" data-image="assets/img/sidebar-5.jpg" >
                            
-                    <div class="sidebar-wrapper" >
+                    <div class="sidebar-wrapper" style="background:#094257">
                                     <div class="logo">
                                         <a href="#" class="simple-text logo-mini">
                                             CA
@@ -36,12 +36,28 @@
                                         </a>
                                     </div>
 
-                    
 
                                     
+             
+                                   
                                     
                                 
-                                <ul class="nav" v-for="r in categorias" :key="r.id">             
+                                <ul class="nav" v-for="r in categorias" :key="r.id">   
+                                    
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(11)>
+                                                        <i class="nc-icon nc-palette"></i>
+                                                <p>ED INFANTIL PRÉ I</p>
+                                            </a>
+                                        </li>
+                    
+                    
+                                        <li class="nav-item ">
+                                                <a class="nav-link"  v-on:click.prevent=post(12)>
+                                                        <i class="nc-icon nc-puzzle-10"></i>
+                                                <p>ED INFANTIL PRÉ II</p>
+                                            </a>
+                                        </li>  
                                      
                                     <div id="menu-fundI">    
                                         <li class="nav-item">
@@ -91,6 +107,9 @@
                                             </div>
                                         </li>
                                     </div>
+
+
+                                    
                                         
                     
                                         <li class="nav-item">
@@ -178,20 +197,7 @@
                                         </li>
                     
                     
-                                        <li class="nav-item ">
-                                                <a class="nav-link"  v-on:click.prevent=post(11)>
-                                                        <i class="nc-icon nc-palette"></i>
-                                                <p>ED INFANTIL PRÉ I</p>
-                                            </a>
-                                        </li>
-                    
-                    
-                                        <li class="nav-item ">
-                                                <a class="nav-link"  v-on:click.prevent=post(12)>
-                                                        <i class="nc-icon nc-puzzle-10"></i>
-                                                <p>ED INFANTIL PRÉ II</p>
-                                            </a>
-                                        </li>                 
+                                                     
                                     </ul>
                                 </div>
                               <!--Fim do menu-->
@@ -210,7 +216,7 @@
                                             <span class="navbar-toggler-bar burger-lines"></span>
                                             <span class="navbar-toggler-bar burger-lines"></span>
                                             <span class="navbar-toggler-bar burger-lines"></span>
-                                            <button class="btn btn-primary btn-sm">Menu</button>
+                                            <button class="btn btn-primary btn-sm">Opções</button>
                                         </button>   
 
                                     </div>
