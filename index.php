@@ -202,7 +202,6 @@
                                             <span class="navbar-toggler-bar burger-lines"></span>
                                             <span class="navbar-toggler-bar burger-lines"></span>
                                             <span class="navbar-toggler-bar burger-lines"></span>
-                                            <button class="btn btn-primary btn-sm">Opções</button>
                                         </button>   
 
                                     </div>
