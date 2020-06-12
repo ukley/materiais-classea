@@ -15,10 +15,8 @@
                                             Colégio Classe A
                                         </a>
                                     </div>
-
-
-                                    
-             
+                             
+            
                                    
                                     
                                 
@@ -175,9 +173,17 @@
                                                 </ul>
                                             </div>
                                         </li>
-                    
-                    
-                                                     
+
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="collapse" v-on:click.prevent=post()>
+                                                    <p >                                        
+
+                                                   Clube de Humanidades
+                                                </p>
+                                            </a>
+                                           
+                                        </li>                                                                                            
                                     </ul>
                                 </div>
                               <!--Fim do menu-->
