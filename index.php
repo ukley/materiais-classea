@@ -176,8 +176,8 @@
 
 
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="collapse" v-on:click.prevent=post()>
-                                                    <p >                                        
+                                            <a class="nav-link" data-toggle="collapse" v-on:click.prevent=post(807)>
+                                                    <p >                                       
 
                                                    Clube de Humanidades
                                                 </p>
