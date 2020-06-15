@@ -157,8 +157,7 @@
                     
                     
                                                         <li class="nav-item ">
-                                                                <a class="nav-link"  v-on:click.prevent=post(21)>
-                                                                    
+                                                                <a class="nav-link"  v-on:click.prevent=post(21)>                                                                 
                                                                     <span class="sidebar-normal">2° Série</span>
                                                                 </a>
                                                         </li>
@@ -176,11 +175,10 @@
 
 
                                         <li class="nav-item">
-                                            <a class="nav-link" data-toggle="collapse" v-on:click.prevent=post(807)>
-                                                    <p >                                       
+                                            <a class="nav-link"  v-on:click.prevent=post(24)>                                                                              
 
                                                    Clube de Humanidades
-                                                </p>
+                                              
                                             </a>
                                            
                                         </li>                                                                                            
